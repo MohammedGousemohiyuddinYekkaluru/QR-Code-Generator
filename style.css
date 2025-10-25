@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #F9EBD7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qr-container{
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+#qr-container h1{
+    text-align: center;
+}
+
+#qr-container .input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#qr-container .generateBtn{
+    width: 100%;
+    background-color: #2ECC71;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#qr-container #qr-img{
+    display: block;
+    margin: 0 auto; /* these two lines are for center the img*/
+    width: 30%;
+}
